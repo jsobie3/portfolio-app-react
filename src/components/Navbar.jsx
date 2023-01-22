@@ -4,12 +4,11 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
+import SobierajFavicon from '../assets/sobierajFavicon.png'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -17,9 +16,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0bd3d3] text-black'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
+        <img src={SobierajFavicon} alt='Logo Image' style={{ width: '75px' }} />
       </div>
 
       {/* menu */}
@@ -44,11 +43,7 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+       
       </ul>
 
       {/* Hamburger */}
@@ -61,7 +56,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#2264c7] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
