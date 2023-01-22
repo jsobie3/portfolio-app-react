@@ -1,5 +1,4 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 import Logo from '../assets/logo.png'
 
 const Home = () => {
@@ -12,18 +11,11 @@ const Home = () => {
         <img className='w-20px mx-auto' src={Logo} alt="Logo Image" />
         </h1>
        
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+        <p className='text-black py-4 max-w-[700px]'>
+          I’m a recent full-stack developer graduate from Northwestern. Enjoy my Vice inspired portfolio and check out some of my work!
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            View Work
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
-          </button>
+          
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0bd3d3] text-black'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[transparent] text-black'>
       <div>
         <img src={SobierajFavicon} alt='Logo Image' style={{ width: '75px' }} />
       </div>
@@ -82,12 +82,7 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+        
       </ul>
 
       {/* Social icons */}
@@ -96,7 +91,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/jakub-sobieraj-06054221a/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -104,23 +99,17 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/jsobie3'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
+         
+          
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://drive.google.com/file/d/1R87W6qKXoMvdmc4RkLAVHTjAoc_1zr35/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

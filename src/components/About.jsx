@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/logo.png';
+
 
 const About = () => {
   return (
@@ -15,14 +15,14 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Sai Kumar, nice to meet you. Please take a look around.</p>
+              <p>My Name is Jakub Sobieraj Full Stack Developer Enjoyer of tacos</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              <p>I love to sandbox and play with design tools! Bootstrap, Materialize, Bulma, Tailwind, and good old fashisoned CSS.
+                 In my coding bootcamp, I loved that my groups let me focus mainly front end design, as it let me try and give our projects
+                 their own personality. </p> 
+                 <br></br>
+              <p> Feel free to look at some of my work below, I used Bootstrap, Foundation, and CSS for my 3 group projects, and Tailwind to create my Miami Vice inspired Portfolio.</p> 
             </div>
           </div>
       </div>
