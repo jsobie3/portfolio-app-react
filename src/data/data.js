@@ -21,7 +21,7 @@ export const data=[
         name:"HandleBars JS and Foundation CSS",
         image:Cocktail,
         github:"https://github.com/jsobie3/Cocktail-App",
-        live:"https://project2thebestmen.herokuapp.com/",
+        live:"https://virtual-bartender-app.herokuapp.com/",
     },
     {
         id:3,
