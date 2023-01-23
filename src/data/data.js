@@ -35,7 +35,7 @@ export const data=[
         name:"First JS project",
         image:Worddaytracker,
         github:"https://github.com/jsobie3/WorkDay-App-2.0",
-        live:"https://jsobie3.github.io/WorkDay-App-2.0/",
+        live:"https://dancing-wisp-9f4147.netlify.app/",
     },
     {
         id:5,
